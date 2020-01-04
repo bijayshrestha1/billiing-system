@@ -1,6 +1,11 @@
 #include<stdio.h>
 #include<conio.h>
+#include<string.h>
 
 void main(){
-    printf("hello roshan shrestha, i am bijay");
+	char name;
+    printf("enter your name");
+    scanf("%c",&name);
+    printf("\n");
+    printf("your name is %c",name);
 }
